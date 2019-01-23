@@ -56,12 +56,13 @@ class Blog extends Component {
     }
 
     return (
-      <div>
+      <div className="Blog">
         <header>
           <nav>
             <ul>
               <li>
                 <a href="/">Home</a>
+                <a href="/new-post">New Post</a>
               </li>
             </ul>
           </nav>
